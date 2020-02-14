@@ -1,0 +1,122 @@
+@font-face {
+  font-family: 'LemonMilk';
+  src: url(../fonts/LemonMilk.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(../fonts/Roboto-Regular.ttf) format('truetype');
+}
+
+
+body {
+  height: 100vh;
+  margin: 0;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  font: 1.2em/1.62 'Roboto', Arial, sans-serif;
+  color: #fff;
+}
+
+h1 {
+  font-size: 3em;
+  font-family: 'LemonMilk', Helvetica, sans-serif;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+  color: #fff;
+  margin-block-end: 0.5em;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: bold;
+  margin-block-end: 0;
+}
+
+h3 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  font-style: italic;
+}
+
+h4 {
+  font-family: 'Ubuntu', sans-serif;
+  margin-block-end: 0;
+}
+
+p {
+  color: #fff;
+  margin-block-end: 0;
+}
+
+.yellow {
+  color: #e7cb18;
+  font-weight: bold;
+}
+
+.threestack{
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+.container{
+  margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
+}
+
+.threestack{
+  &.one{
+    background: url(../img/face.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    float: left;
+    height:325px;
+    width: 100%;
+  }
+  &.two{
+    background: url(../img/heroshot.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    float: left;
+    height:325px;
+    width: 100%;
+  }
+}
+
+.about{
+
+  max-width: 700px;
+  margin: 150px auto 0 auto;
+  float: none;
+  .face{
+    background: url(../img/heroshot.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    float: left;
+    height: 600px;
+    width: 100%;
+    -webkit-box-shadow: -23px 10px 71px -6px rgba(47,113,212,1);
+    -moz-box-shadow: -23px 10px 71px -6px rgba(47,113,212,1);
+    box-shadow: -23px 10px 71px -6px rgba(47,113,212,1);
+  }
+  .wrap{
+    padding-left: 40px;
+    h1{
+      font-size: 64px;
+      color: $blue;
+      font-family: $fonttwo;
+    }
+    p{
+      font-size: 18px;
+    }
+    /* img{
+    } */
+  }
+}
+
+/* .wrap h1 {
+
+} */
